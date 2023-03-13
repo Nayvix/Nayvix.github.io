@@ -1,0 +1,52 @@
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--trans-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--black-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--slate-700) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle { background-color: var(--white-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--orange-200) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--orange-300) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--orange-400) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--orange-200) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--orange-100) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--orange-800) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--orange-800) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--orange-600) }
+nav.theme-light ul.links-wrapper li a:focus,
+nav.theme-light ul.links-wrapper li a:hover,
+nav.theme-light ul.links-wrapper li a:active { color: var(--white-000) }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { border-color: var(--white-000) }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { background-color: var(--orange-600) }
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited { color: var(--black-000) }
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: var(--black-000) }
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); } 
+.col-2 figure, .col-3 figure, .col-4 figure {
+    overflow: hidden;
+}
+.fig-corners-soft img, section.fig-corners-soft .col-2 figure img, section.fig-corners-soft .col-3 figure img, section.fig-corners-soft .col-4 figure img, section.fig-corners-soft figure img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.section-selector-1 .col-4 { overflow: visible }
+.section-selector-1 .col-4 { overflow: hidden }
+.section-selector-1 { background-color: var(--orange-600) }

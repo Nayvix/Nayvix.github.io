@@ -2,52 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rayan Mlaiki | Home Page</title>
-    <meta name="description" content="Welcome to my website that showcases some of my digital creations.">
+    <title>Rayan Mlaiki | Main page</title>
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
-    <link rel="stylesheet" href="assets/css/global.css">
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ESNP185CR"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-4ESNP185CR');
-    </script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- Font Awesome 6 icons. Delete if not using. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
 
-    <header class="theme-dark hero-bg text-center-desktop text-center-mobile desktop-min-height-80vh">
+   	<!-- header starts here -->
 
-        <div class="container-text reveal-fade-in-header">
-			<div class="badge">Rayan Mlaiki</div>
-			
-            <h1 class="text-shadow">Soon-to-be <span class="highlight">programming genius</span></h1>
-            <h2>Click on the button to see my sample web pages!</h2>
+       <header class="cols-2-half text-center-mobile theme-dark">
+
+        <div class="col-2 col-text">
+            <div class="badge">Soon-to-be programming genius</div>
+            <h1>Rayan Mlaiki</h1>
+            <h2>I am a beginning programmer, having experience in C#, C, Python and Java, as well as HTML5 and CSS.</h2>
+
+        	<div class="container-btn">
+                <a href="portfolio.html" class="btn btn-solid"><span>View my portfolio</span><i class="fa-solid fa-magnifying-glass"></i></a><a href="#" class="btn btn-outline"><span>Get in touch</span><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
         </div>
-        
 
-        <div class="container-media">
-            <img src="assets/img/Computer.jpg" alt="Placeholder image">
+        <div class="col-2 col-visual">
+				<figure>
+					<img src="assets/img/programmer.png" alt="Placeholder image">
+				</figure>
+				
+				
+				
+				
+            
         </div>
-
-        <div class="container-overlay"></div>
-
-        <div class="container-btn">
-			<a href="#" class="btn btn-outline btn-soft"><span>Sample web pages</span><i class="fas fa-arrow-right"></i></a>
-		</div>
-
-    	
 
     </header>
+
+
+	<!-- header ends here -->
     
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p> 
-    <p><a href="exercises/page-2.html">Web page with sections</a></p> 
+
+	<!-- section starts here -->
+
+	<section class="section-selector-1 theme-dark">
+
+		<div class="col-1 text-center w-820px">
+			<h2>Recent <a href="portfolio.html">web design</a> and <a href="#">JavaScript</a> projects</h2>
+			<h3>Here are some of my most recent projects you can check to see what my work looks like.</h3>
+		</div>
+
+		<!-- Begin three-column flexbox grid -->
+		<div class="flex-cols-3 cols-gap-4">
+
+
+			<div class="col-3">
+				<figure class="figure-overlay">
+					<img src="https://lunevedy.com/ui/assets/img/460x280-bakery.png" alt="Placeholder image">
+				<div class="cols-img-h4">Hero blocks samples</div></figure>	
+				
+				
+				<a href="#" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="col-3">
+				<figure class="figure-overlay">
+					<img src="https://lunevedy.com/ui/assets/img/460x280-fashion-yellow.png" alt="Placeholder image">
+				<div class="cols-img-h4">Multi-column samples</div></figure>	
+				
+				
+				<a href="#" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="col-3">
+				<figure class="figure-overlay">
+					<img src="https://lunevedy.com/ui/assets/img/460x280-student.png" alt="Placeholder image">
+				<div class="cols-img-h4">Snazzy Fashion</div></figure>	
+				
+				
+				<a href="#" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+
+
+		</div>
+		<!-- End three-column flexbox grid -->
+
+	</section>
+
+	<!-- section ends here -->
+
+
+
 </body>
 </html>

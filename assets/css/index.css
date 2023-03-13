@@ -1,1 +1,10 @@
-header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)); } 
+header.theme-dark { background-color: var(--trend-800) }
+
+.section-selector-1.theme-light .col-3 { border-color: var(--black-000) }
+.section-selector-1.theme-light .cols-background .col-3 { background-color: var(--trend-400) }
+.section-selector-1 { background-color: var(--trend-800) }
+
+.figure-overlay img, section.fig-corners-soft .col-2 figure img, section.fig-corners-soft .col-3 figure img, section.fig-corners-soft .col-4 figure img, section.fig-corners-soft figure img {
+    border-top-left-radius : 15px;
+    border-top-right-radius : 15px;
+}
