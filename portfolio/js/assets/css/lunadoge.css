@@ -2361,5 +2361,11 @@ footer p.privacy a:hover, footer p.privacy a:active {
     overscroll-behavior-y: contain
 }
 
+.container-menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 50px;
+    margin-top: 10px;
+}
 
 

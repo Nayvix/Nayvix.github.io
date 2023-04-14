@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=.0">
     <title>Rayan Mlaiki | Front-end Developer | JavaScript Portfolio</title>
-    <meta name="description" content="A sample collection of my recent JavaScript projects.">
+    <meta name="description" content="A portfolio dedicated to JavaScript projects.">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/favicon-16x16.png">
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/lunadoge.css" />
     <link rel="stylesheet" href="assets/css/css-javascript.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
 
@@ -58,6 +66,8 @@
 	<!-- Font Awesome 6.1 icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 </head>
 
 
@@ -66,16 +76,19 @@
     <!-- navigation menu -->
 
     <nav class="container-menu menu-desktop menu-sticky">
-        <a href="#"><img src="assets/img/website-logo-sample.png" alt="website logo"></a>
-        <ul class="">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../portfolio/index.html">Portfolio</a></li>
-            <li><a href="../../contact/index.html" id="btn-cta"><span>Contact</span><i class="fas fa-arrow-right"></i></a></li>
-        </ul>
-        <div class="item-icon">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <a href="../index.html" class="brand">
+            <img src="../../assets/img/Logo.png" alt="Sample website logo"></a>
+        
+        <div class="container-menu-links">
+        
+        <div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
+            <ul class="links-wrapper">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../index.html">Portfolio</a></li>
+                <li><a href="../../store/index.html">Store</a></li>
+                <li><a class="btn btn-solid btn-soft" id="btn-cta" href="../contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
+            </ul>
+            </div>
         </div>
     </nav>
 
@@ -223,7 +236,7 @@
     <!-- footer -->
 	<footer>
 
-		<h2>Joe Bloggs</h2>
+		<h2>Rayan Mlaiki</h2>
 
 		<h3>Excellence in digital creation</h3>
 
@@ -244,6 +257,22 @@
 
     <script src="assets/js/menu.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#383b75"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "content": {
+        "href": "https://nayvix.github.io/privacy.html"
+      }
+    });
+    </script>
 
 </body>
 </html>

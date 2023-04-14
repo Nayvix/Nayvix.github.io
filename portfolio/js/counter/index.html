@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Counter Project | Mary Smith | Front-end Developer | </title>
+    <title>Rayan Mlaiki | Front-end Developer | JavaScript Counter Project</title>
     <meta name="description" content="An increment and decrement counter that changes the colour of the number displayed on the web page.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../../assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../../assets/img/favicon-16x16.png">
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="../assets/css/lunadoge.min.css" />
@@ -129,14 +133,44 @@
     </main>
 
     <script>
+        // set inital value to zero
+        let count = 0;
+        // select value and buttons
+        const value = document.querySelector("#value");
+        const btns = document.querySelectorAll(".btn");
 
+        btns.forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+            const styles = e.currentTarget.classList;
+            if (styles.contains("decrease")) {
+                count--;
+            }
+            else if (styles.contains("increase")) {
+                count++;
+            }
+            else {
+                count = 0;
+            }
+
+            if (count > 0) {
+                value.style.color = "green";
+            }
+            if (count < 0) {
+                value.style.color = "red";
+            }
+            if (count === 0) {
+                value.style.color = "#222";
+            }
+            value.textContent = count;
+        });
+        });
     </script>
 
 
     <!-- footer -->
 	<footer>
 
-		<h2>Joe Bloggs</h2>
+		<h2>Rayan Mlaiki</h2>
 
 		<h3>Excellence in digital creation</h3>
 

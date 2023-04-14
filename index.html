@@ -7,10 +7,49 @@
     <title>Rayan Mlaiki | Main page</title>
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
     <link rel="stylesheet" href="assets/css/index.css">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4ESNP185CR"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-4ESNP185CR');
+	</script>
+
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 </head>
 <body>
+    <nav class="theme-dark"><div class="container-menu">
+        <a href="../index.html" class="brand">
+            <img src="assets/img/Logo.png" alt="Sample website logo"></a>
+        
+        <div class="container-menu-links">
+        
+        <div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
+            <ul class="links-wrapper">
+                <li><a href="#">Home</a></li>
+                <li><a href="portfolio/index.html">Portfolio</a></li>
+                <li><a href="store/index.html">Store</a></li>
+                <li><a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
     
 
    	<!-- header starts here -->
@@ -23,7 +62,7 @@
             <h2>I am a beginning programmer, having experience in C#, C, Python and Java, as well as HTML5 and CSS.</h2>
 
         	<div class="container-btn">
-                <a href="portfolio.html" class="btn btn-solid"><span>View my portfolio</span><i class="fa-solid fa-magnifying-glass"></i></a><a href="#" class="btn btn-outline"><span>Get in touch</span><i class="fa-solid fa-envelope"></i></a>
+                <a href="portfolio/index.html" class="btn btn-solid"><span>View my portfolio</span><i class="fa-solid fa-magnifying-glass"></i></a><a href="contact/index.html" class="btn btn-outline"><span>Get in touch</span><i class="fa-solid fa-envelope"></i></a>
             </div>
 
         </div>
@@ -50,7 +89,7 @@
 	<section class="section-selector-1 theme-dark">
 
 		<div class="col-1 text-center w-820px">
-			<h2>Recent <a href="portfolio.html">web design</a> and <a href="#">JavaScript</a> projects</h2>
+			<h2>Recent <a href="portfolio/index.html">web design</a> and <a href="portfolio/js/index.html">JavaScript</a> projects</h2>
 			<h3>Here are some of my most recent projects you can check to see what my work looks like.</h3>
 		</div>
 
@@ -60,29 +99,29 @@
 
 			<div class="col-3">
 				<figure class="figure-overlay">
-					<img src="https://lunevedy.com/ui/assets/img/460x280-bakery.png" alt="Placeholder image">
+					<img src="assets/img/project-hero.png" alt="Placeholder image">
 				<div class="cols-img-h4">Hero blocks samples</div></figure>	
 				
 				
-				<a href="#" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/project-hero/index.html" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
 				<figure class="figure-overlay">
-					<img src="https://lunevedy.com/ui/assets/img/460x280-fashion-yellow.png" alt="Placeholder image">
+					<img src="assets/img/project-multi-col.png" alt="Placeholder image">
 				<div class="cols-img-h4">Multi-column samples</div></figure>	
 				
 				
-				<a href="#" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/project multi-column/index.html" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
 				<figure class="figure-overlay">
-					<img src="https://lunevedy.com/ui/assets/img/460x280-student.png" alt="Placeholder image">
+					<img src="assets/img/project-fashion.jpg" alt="Placeholder image">
 				<div class="cols-img-h4">Snazzy Fashion</div></figure>	
 				
 				
-				<a href="#" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/fashion/index.html" class="btn btn-solid btn-pill"><span>Check the page</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 
@@ -92,8 +131,48 @@
 	</section>
 
 	<!-- section ends here -->
+	
+	<!-- footer -->
+ 
+	<footer class="theme-dark text-center-desktop text-center-mobile">
+
+		<h2>Rayan Mlaiki</h2>
+
+		<h3>Full-Stack designer and developer</h3>
+
+		<ul class="footer-links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio/index.html">Portfolio</a></li>
+			<li><a href="store/index.html">Store</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+		</ul>
+
+		<ul class="footer-icons">
+			<li><a href="https://www.linkedin.com/in/rayan-mlaiki-6ab967212/ target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/Nayvix" target="_blank"><i class="fab fa-github-square"></i></a></li>
+		</ul>
+
+		<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+
+	</footer>
 
 
-
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+	window.cookieconsent.initialise({
+	"palette": {
+		"popup": {
+		"background": "#383b75"
+		},
+		"button": {
+		"background": "#f1d600"
+		}
+	},
+	"content": {
+		"href": "https://nayvix.github.io/privacy.html"
+	}
+	});
+	</script>
+	
 </body>
 </html>

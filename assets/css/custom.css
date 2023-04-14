@@ -9,6 +9,7 @@ header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 .theme-dark {
     background-color: #10172e;
 }
-body {
-    font-family: 'Merriweather';
+
+body{
+    font-family: 'Playfair Display';
 }
